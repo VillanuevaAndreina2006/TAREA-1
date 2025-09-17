@@ -1,0 +1,21 @@
+Algoritmo el_mayor_de_3_numeros
+	definir a,b, c Como Real
+	escribir "ingrese el 1er numero:"
+	leer a
+	escribir "ingrese el 2do numero:"
+	leer b
+	escribir "ingrese el 3er numero:"
+	leer c
+	Si a>b y a>c entonces 
+		m= a
+	sino 
+		si b>c entonces 
+			m= b
+		sino 
+			m= c
+			
+		FinSi
+	FinSi
+	escribir "el mayor es:", m
+	
+FinAlgoritmo
