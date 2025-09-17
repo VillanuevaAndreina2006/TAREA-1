@@ -1,0 +1,18 @@
+Algoritmo perimetro_de_circunferencia_2
+	//definir variables
+	definir pii, radio, perimetro Como Real
+	//valor de pii
+	pii= 3.14
+	escribir "ingrese el radio"
+	leer radio
+	Si radio > 0 Entonces
+		perimetro = 2* pii* radio
+	escribir "el perimetro del circulo es:"  ,perimetro
+	SiNo
+		escribir "error"
+		leer error
+	fin si 
+	
+	
+	
+FinAlgoritmo
