@@ -1,0 +1,15 @@
+Algoritmo Mostrar_el_número_más_grande
+	Definir A, B Como Entero
+	Escribir "Ingrese dos numeros"
+	Leer A, B
+	Si A=B Entonces
+		Escribir "Los números que registro son iguales"
+	SiNo
+		Si A > B Entonces
+			m <- A
+		SiNo
+			m <- B
+		FinSi
+		Escribir "El numero mayor es :", m
+	FinSi
+FinAlgoritmo
