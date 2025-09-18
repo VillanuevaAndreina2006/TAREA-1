@@ -1,0 +1,10 @@
+Algoritmo La_hipotenusa_de_un_triangulo_rectangulo
+	//Este algoritmo es solo para calcular la hipotenusa, previamente ya se debe tener identifcado al cateto a y el b
+	Definir a, b, h Como Real
+	Escribir "Ingresa la cantidad del cateto a :"
+	Leer a
+	Escribir "Ingresa la cantidad del cateto b :"
+	Leer b
+	h <- raiz(a ^ 2 + b ^ 2)
+	Escribir "La hipotenusa es :", h
+FinAlgoritmo
